@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Victor Kashima | Form</title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" href="static/VictorKashima-FavIcon-Form.png">
+</head>
+<body>
+
+    <main>
+        <section class="image-section"></section>
+
+        <section class="form-section">
+            <p>Bem vindo</p>
+            <form action="https://api.sheetmonkey.io/form/fsF67CbMMBHZNtVZqchEsz" method="post" id="myForm">
+                <label>Nome<input class="required" type="text" name="Nome" id="inputName" placeholder="Digite seu nome" onfocusout="nameValidate()"><div class="inputError"></div></label>
+
+                <label>Sobrenome<input class="required" type="text" name="Sobrenome" id="inputSobreNome" placeholder="Digite seu sobrenome" onfocusout="surnameValidate()"><div class="inputError"></div></label>
+
+                <label>Email<input class="required" type="email" name="Email" id="inputEmail" placeholder="Digite seu email" onfocusout="emailValidate()"><div class="inputError"></div></label>
+
+                <label>Número celular<input class="required" type="tel" name="Numero" id="inputNum" placeholder="DDD 00000 0000" onfocusout="numValidate()"><div class="inputError"></div></label>
+
+                <label>Recado<input class="required" type="text" name="Recado" id="inputRecado" placeholder="Deixe seu recado" onfocusout="messageValidate()"><div class="inputError"></div></label>
+
+                <input type="submit" id="submit" value="Enviar">
+                <input type="hidden" name="Data" value="x-sheetmonkey-current-date-time" />
+            </form>
+        </section>
+    </main>
+
+</body>
+
+<script src="js/index.js"></script>
+</html>
