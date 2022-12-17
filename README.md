@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 <h1>FORM</h1>
 <h3>Technologies</h3>
 <p>HTML | CSS | JS</p>
@@ -9,4 +9,4 @@
 
 https://victorkashima.github.io/form/
 
-</center>
+</div>
